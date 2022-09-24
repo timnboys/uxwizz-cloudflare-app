@@ -1,0 +1,31 @@
+{
+  "name": "uxwizz-analytics-cloudflare-app",
+  "version": "1.0.0",
+  "description": "Adds the UXWizz tracking code to your website. If you don't have a running UXWizz yet, please visit https://uxwizz.com",
+  "main": "source/app.js",
+  "scripts": {
+    "lint": "standard ./source/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timnboys/uxwizz-cloudflare-app.git"
+  },
+  "author": "CubeData",
+  "license": "CubeData EULA",
+  "bugs": {
+    "url": "https://github.com/timnboys/uxwizz-cloudflare-app/issues"
+  },
+  "homepage": "https://uxwizz.com",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}
