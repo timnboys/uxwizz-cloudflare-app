@@ -1,10 +1,10 @@
 const path = require("path")
 const webpack = require("webpack")
 
-const isDev = process.env.NODE_ENV !== "production"
+const isDev = false
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   devtool: "hidden-source-map",
   entry: {
     index: "./src/app.js",

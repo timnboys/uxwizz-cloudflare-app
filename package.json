@@ -8,7 +8,7 @@
     "dev:webpack": "webpack --watch --colors",
     "dev:setup": "npm-run-all lint",
     "build": "npm-run-all lint build:webpack",
-    "build:webpack": "NODE_ENV=production webpack --colors",
+    "build:webpack": "webpack --colors",
     "lint": "node_modules/.bin/eslint --fix --ext .js src"
   },
   "repository": {
