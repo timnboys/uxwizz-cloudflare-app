@@ -4,7 +4,7 @@
     "body": [
       {
         "type": "script",
-        "src": "./source/app.js"
+        "src": "./src/app.js"
       }
     ]
   },
