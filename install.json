@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/install",
   "resources": {
-    "body": [
+    "head": [
       {
         "type": "script",
-        "src": "./source/app.js"
+        "src": "./src/app.js"
       }
     ]
   },
