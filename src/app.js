@@ -27,11 +27,11 @@
   const datenow = Date.now()
 
   if (domain.indexOf("http") !== 0 && domain.indexOf("//") !== 0) {
-    domain = `https://${domain}`
+    domain = `https://${domain}/server/`
   }
 
   if (domain.charAt(domain.length - 1) !== "/") {
-    domain += "/"
+    domain += "/server/"
   }
 
   const uxwizzVendorScript = document.createElement("script")
